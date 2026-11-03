@@ -1,0 +1,15 @@
+name: Deploy to WP Engine
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: wpengine/github-action-wpe-site-deploy@v3
+        with:
+          WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+          WPE_ENV: intelexiausa
+          # SRC_PATH: "wp-content/themes/my-theme"   # optional: deploy just one folder
+          # REMOTE_PATH: "wp-content/themes/my-theme"
