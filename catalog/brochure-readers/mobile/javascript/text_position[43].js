@@ -1,0 +1,1 @@
+﻿positionForPages[43]={page:43,positions:[{word:"Supplementary",left:0.088194,top:0.057021,width:0.285044,height:0.041195},{word:"Chapter",left:0.382676,top:0.057021,width:0.150235,height:0.041195},{word:"Books",left:0.542347,top:0.057021,width:0.112884,height:0.041195},{word:"43",left:0.925654,top:0.947955,width:0.019138,height:0.015884}]};
